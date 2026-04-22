@@ -4,24 +4,24 @@
   --font-display: "Bricolage Grotesque", serif;
   --font-body: "Instrument Sans", sans-serif;
 
-  --color-bg: #0C0A09;
-  --color-surface: #141210;
-  --color-surface-2: #1C1917;
-  --color-border: #292524;
-  --color-border-light: #3D3733;
+  --color-bg: #FFFFFF;
+  --color-surface: #F4F7FC;
+  --color-surface-2: #E8EEF8;
+  --color-border: #D8E2F0;
+  --color-border-light: #B8C8E0;
 
-  --color-lime: #C8FF00;
-  --color-lime-dim: #C8FF0015;
-  --color-lime-muted: #C8FF0040;
+  --color-lime: #1A3A8C;
+  --color-lime-dim: #1A3A8C12;
+  --color-lime-muted: #1A3A8C35;
 
-  --color-text: #FAFAF9;
-  --color-text-2: #A8A29E;
-  --color-text-3: #78716C;
+  --color-text: #0D1B3E;
+  --color-text-2: #4A5E82;
+  --color-text-3: #8A9AB8;
 }
 
 html {
   scroll-behavior: smooth;
-  color-scheme: dark;
+  color-scheme: light;
 }
 
 body {
@@ -34,7 +34,7 @@ body {
 
 ::selection {
   background-color: var(--color-lime);
-  color: var(--color-bg);
+  color: #FFFFFF;
 }
 
 /* Custom scrollbar — minimal */
