@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Bricolage Grotesque", serif;
+  --font-body: "Instrument Sans", sans-serif;
+
+  --color-bg: #0C0A09;
+  --color-surface: #141210;
+  --color-surface-2: #1C1917;
+  --color-border: #292524;
+  --color-border-light: #3D3733;
+
+  --color-lime: #C8FF00;
+  --color-lime-dim: #C8FF0015;
+  --color-lime-muted: #C8FF0040;
+
+  --color-text: #FAFAF9;
+  --color-text-2: #A8A29E;
+  --color-text-3: #78716C;
+}
+
+html {
+  scroll-behavior: smooth;
+  color-scheme: dark;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background-color: var(--color-lime);
+  color: var(--color-bg);
+}
+
+/* Custom scrollbar — minimal */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--color-border); border-radius: 2px; }
+
+/* Section divider */
+.divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--color-border) 20%, var(--color-border) 80%, transparent);
+}
+
+/* Marquee */
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.animate-marquee {
+  animation: marquee 30s linear infinite;
+}
+
+/* Number watermark */
+.watermark {
+  font-family: var(--font-display);
+  font-size: clamp(6rem, 15vw, 14rem);
+  font-weight: 800;
+  line-height: 0.85;
+  color: transparent;
+  -webkit-text-stroke: 1px var(--color-border);
+  user-select: none;
+  pointer-events: none;
+}
