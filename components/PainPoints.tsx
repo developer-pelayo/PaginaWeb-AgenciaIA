@@ -5,23 +5,23 @@ import { Section, Reveal } from "@/lib/motion";
 const pains = [
   {
     num: "01",
-    title: "Pierdes horas en tareas que una máquina haría en segundos",
-    text: "Copiar datos de un sitio a otro, responder siempre lo mismo, enviar emails uno a uno. Tu tiempo vale más que eso.",
+    title: "Mensajes sin responder fuera de horario",
+    text: "Un paciente pregunta a las 10 de la noche si tienes hueco mañana. Nadie responde. Al día siguiente ya ha llamado a otra clínica.",
   },
   {
     num: "02",
-    title: "Tus herramientas no se hablan entre sí",
-    text: "CRM por un lado, Excel por otro, WhatsApp por otro. Nada está conectado y la información se pierde entre medias.",
+    title: "Tu recepcionista no puede estar en todo",
+    text: "Teléfono, WhatsApp, la sala de espera. Cuando hay lío, los mensajes esperan. Y un paciente que espera respuesta busca en otro sitio.",
   },
   {
     num: "03",
-    title: "Sabes que la IA puede ayudarte, pero no sabes cómo",
-    text: "Has visto lo que hace ChatGPT, pero no tienes ni idea de cómo aplicarlo a tu negocio. Y no tienes tiempo para investigarlo.",
+    title: "Pacientes que llevan meses sin volver",
+    text: "Están en tu base de datos pero nadie les ha contactado. Algunos ya se han ido a la competencia. Solo necesitaban un mensaje en el momento justo.",
   },
   {
     num: "04",
-    title: "Tu competencia ya se está automatizando",
-    text: "Mientras tú haces las cosas a mano, otros ya usan IA para atender clientes, generar contenido y tomar decisiones más rápido.",
+    title: "Reseñas de Google que nunca llegan",
+    text: "Haces un buen trabajo pero no lo pides. Sigues con 4.1 estrellas mientras la clínica de enfrente sube a 4.8 porque sí pregunta.",
   },
 ];
 

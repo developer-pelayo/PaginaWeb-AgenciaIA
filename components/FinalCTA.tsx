@@ -9,7 +9,6 @@ export default function FinalCTA() {
       <div className="max-w-[1200px] mx-auto">
         <Reveal>
           <div className="border border-[var(--color-border)] rounded-lg bg-[var(--color-surface)] p-10 md:p-16 lg:p-20 relative overflow-hidden">
-            {/* Accent corner */}
             <div className="absolute top-0 right-0 w-32 h-32 bg-[var(--color-lime)] opacity-[0.04] blur-[60px]" />
             <div className="absolute top-0 right-0 w-px h-24 bg-gradient-to-b from-[var(--color-lime-muted)] to-transparent" />
             <div className="absolute top-0 right-0 h-px w-24 bg-gradient-to-l from-[var(--color-lime-muted)] to-transparent" />
@@ -17,13 +16,15 @@ export default function FinalCTA() {
             <div className="relative z-10 flex flex-col lg:flex-row lg:items-end lg:justify-between gap-10">
               <div className="max-w-[540px]">
                 <h2 className="font-[family-name:var(--font-display)] text-[clamp(2rem,4.5vw,3.2rem)] font-800 leading-[0.95] tracking-[-0.03em]">
-                  Tu competencia ya se está automatizando.
+                  Esta noche alguien va a escribir
                   <br />
-                  <span className="text-[var(--color-lime)]">¿Y tú?</span>
+                  a tu clínica por WhatsApp.
+                  <br />
+                  <span className="text-[var(--color-lime)]">¿Les vas a responder?</span>
                 </h2>
                 <p className="mt-6 text-[16px] text-[var(--color-text-2)] leading-[1.7]">
-                  Cuéntanos qué necesitas en 15 minutos. Te decimos exactamente
-                  cómo la IA puede transformar tu negocio.
+                  15 minutos para contarnos tu clínica. Te decimos exactamente
+                  qué haríamos y cuánto costaría. Sin compromiso.
                 </p>
               </div>
 

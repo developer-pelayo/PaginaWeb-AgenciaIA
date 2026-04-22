@@ -5,30 +5,29 @@ import { Section, Reveal } from "@/lib/motion";
 const steps = [
   {
     num: "01",
-    title: "Nos cuentas qué necesitas",
-    text: "Una llamada de 15 minutos donde entendemos tu negocio, tus problemas y lo que quieres conseguir.",
+    title: "Nos cuentas cómo funciona tu clínica",
+    text: "Una llamada de 15 minutos. Nos explicas cómo gestionas las citas, qué preguntan más tus pacientes y qué quieres automatizar.",
   },
   {
     num: "02",
-    title: "Diseñamos la solución",
-    text: "Te proponemos exactamente qué vamos a construir, cómo funciona y cuánto cuesta. Sin sorpresas.",
+    title: "Configuramos el agente con tus datos",
+    text: "Cargamos tus tratamientos, precios, horarios y política de cancelaciones. El agente aprende cómo es tu clínica, no una genérica.",
   },
   {
     num: "03",
-    title: "Lo construimos todo",
-    text: "Nos encargamos de todo: desarrollo, configuración, integraciones. Tú no tocas nada técnico.",
+    title: "Lo probamos juntos antes de activarlo",
+    text: "Antes de que lo vea un solo paciente, lo probamos contigo. Ajustamos lo que haga falta hasta que funcione exactamente como quieres.",
   },
   {
     num: "04",
-    title: "Te lo entregamos funcionando",
-    text: "Lo probamos juntos, ajustamos lo que haga falta, y te damos soporte continuo.",
+    title: "Lo activamos y tú te olvidas",
+    text: "Una vez activo, funciona solo. Nosotros lo monitorizamos y ajustamos cuando hace falta. Tú solo ves los resultados.",
   },
 ];
 
 export default function HowItWorks() {
   return (
     <Section id="como-funciona" className="py-28 md:py-40 px-6 md:px-10 relative overflow-hidden">
-      {/* Large watermark */}
       <div className="absolute bottom-[-5%] left-[-5%] watermark opacity-30">
         PROCESO
       </div>

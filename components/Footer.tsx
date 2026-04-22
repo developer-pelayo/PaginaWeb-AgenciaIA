@@ -51,8 +51,8 @@ export default function Footer() {
               atom<span className="text-[var(--color-lime)]">á</span>tica
             </a>
             <p className="mt-3 text-[13px] text-[var(--color-text-3)] leading-[1.6] max-w-[280px]">
-              Automatizamos tu negocio con inteligencia artificial.
-              Para cualquier sector.
+              Automatización con IA para clínicas dentales, estéticas
+              y de fisioterapia.
             </p>
             <div className="mt-5 flex items-center gap-3">
               {socials.map((s) => (

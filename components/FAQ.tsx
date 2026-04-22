@@ -6,28 +6,28 @@ import { AnimatePresence } from "framer-motion";
 
 const faqs = [
   {
-    q: "¿En qué sectores trabajáis?",
-    a: "En cualquiera. Hemos trabajado con ecommerce, clínicas, inmobiliarias, despachos de abogados, restaurantes, academias... Si tu negocio tiene procesos manuales, podemos automatizarlos.",
+    q: "¿Para qué tipo de clínicas trabajáis?",
+    a: "Dental, estética y fisioterapia principalmente. Cualquier clínica que gestione citas por WhatsApp y quiera atender mejor a sus pacientes sin ampliar el equipo.",
   },
   {
-    q: "¿Necesito conocimientos técnicos?",
-    a: "No. Nosotros nos encargamos de todo lo técnico. Tú solo nos explicas qué necesitas y nosotros lo construimos, configuramos y mantenemos.",
+    q: "¿Qué necesito tener ya instalado?",
+    a: "Solo WhatsApp Business. Nosotros nos encargamos del resto: el agente de IA, los flujos de automatización, la base de datos y la integración con tu agenda.",
   },
   {
-    q: "¿Cuánto cuesta un proyecto?",
-    a: "Depende del alcance. Hacemos una consulta inicial gratuita, entendemos lo que necesitas, y en 48 horas te enviamos una propuesta con precio cerrado. Sin sorpresas ni costes ocultos.",
+    q: "¿Qué pasa si el paciente pregunta algo que el agente no sabe?",
+    a: "Lo escala automáticamente a tu recepcionista con todo el contexto de la conversación. El agente sabe cuándo no puede ayudar y lo dice, nunca inventa.",
   },
   {
-    q: "¿Cuánto tardáis en entregar?",
-    a: "Depende del proyecto. Una landing page puede estar lista en una semana. Una automatización compleja puede tardar 2-4 semanas. Siempre te damos plazos claros antes de empezar.",
+    q: "¿Cuánto tiempo tarda la configuración?",
+    a: "Normalmente entre 1 y 2 semanas desde que nos das la información de tu clínica: tratamientos, precios, horarios y política de cancelaciones.",
   },
   {
-    q: "¿Qué pasa después de la entrega?",
-    a: "Te damos soporte continuo. Si algo deja de funcionar o necesitas ajustes, estamos ahí. También ofrecemos planes de mantenimiento para proyectos que lo necesiten.",
+    q: "¿Cuánto cuesta?",
+    a: "Hay un coste de setup para configurarlo todo y una mensualidad de mantenimiento. En 48 horas te mandamos una propuesta con precio cerrado. Sin sorpresas ni costes ocultos.",
   },
   {
-    q: "¿Puedo combinar varios servicios?",
-    a: "Claro. De hecho, lo más potente es combinarlos. Por ejemplo: una web con chatbot integrado, o un asistente de voz conectado a tu CRM con un dashboard de métricas. Todo se integra.",
+    q: "¿Tengo que hacer algo yo?",
+    a: "Nada técnico. Nos das la información de tu clínica y nosotros lo construimos, configuramos y probamos todo. Tú solo lo usas.",
   },
 ];
 

@@ -17,22 +17,22 @@ const body = Instrument_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Atomática — Agencia de automatización con IA",
+  title: "Atomática — Automatización con IA para clínicas",
   description:
-    "Automatizamos tu negocio con inteligencia artificial. Páginas web, chatbots, asistentes de voz, automatización de procesos y más. Para cualquier sector.",
+    "Recepcionista de WhatsApp con IA para clínicas dentales, estéticas y de fisioterapia. Atiende 24/7, agenda citas y reactiva pacientes inactivos.",
   keywords: [
-    "automatización IA",
-    "agencia automatización",
-    "chatbot IA",
-    "asistente voz IA",
-    "automatización procesos",
-    "agencia IA España",
+    "recepcionista WhatsApp clínica",
+    "automatización clínica dental",
+    "chatbot WhatsApp clínica",
+    "IA para clínicas España",
+    "reactivación pacientes",
+    "reseñas Google automáticas",
   ],
   authors: [{ name: "Atomática" }],
   openGraph: {
-    title: "Atomática — Agencia de automatización con IA",
+    title: "Atomática — Automatización con IA para clínicas",
     description:
-      "Automatizamos tu negocio con inteligencia artificial. Para cualquier sector.",
+      "Recepcionista de WhatsApp con IA para clínicas. Atiende 24/7, agenda citas y reactiva pacientes inactivos.",
     url: "https://atomatica.es",
     siteName: "Atomática",
     locale: "es_ES",
@@ -40,9 +40,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Atomática — Agencia de automatización con IA",
+    title: "Atomática — Automatización con IA para clínicas",
     description:
-      "Automatizamos tu negocio con inteligencia artificial.",
+      "Recepcionista de WhatsApp con IA para clínicas dentales, estéticas y de fisioterapia.",
   },
   robots: { index: true, follow: true },
 };
