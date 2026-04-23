@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 @theme {
-  --font-display: "Bricolage Grotesque", serif;
-  --font-body: "Instrument Sans", sans-serif;
+  --font-display: "Plus Jakarta Sans", sans-serif;
+  --font-body: "Inter", sans-serif;
 
   --color-bg: #f8f7f5;
   --color-surface: #ffffff;
